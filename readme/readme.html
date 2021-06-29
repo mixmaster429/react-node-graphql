@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Passup &#8250; ReadMe</title>
+	<link rel="stylesheet" href="readme.css" type="text/css" />
+</head>
+<body>
+<h1 id="logo">
+	<a href="http://trioangle.com/airbnb-clone/"></a>
+	<br /> Version 1.0
+</h1>
+
+<h2>Installation: Famous 2-minute install</h2>
+<ol>
+	<li>Login to your server via SSH Access.</li>
+	<li>Upload our PassUp package into your server webroot directory(Ex. /home/username/public_html).</li>
+	<li>Unzip our PassUp script and make sure you have already installed Node.js, mongoDB and Apache webserver on your server machine.</li>
+	<li>Go to our PassUp directory and Run the <code>deploy.sh</code> file by using this command <code>(sh deploy.sh)</code></li>	
+	<li>After running the Shell script it will aks some details from you on terminal, Like mongoDB name, Username, Pssword, Site name, , Site url, Site admin username and password, Port number.</li>
+	<ol><li>If you have some error on the above steps, Please delete the<code>.env</code> file and replace it with <code>.env.example</code> file from <code>.env</code></li></ol>
+	<li>It will take some time to setup passup after this process completed.</li>
+</ol>
+
+<h2>System Requirements</h2>
+<ul>
+	<li><a href="https://nodejs.org/en/">Node.js</a> version <strong>v10.*</strong>.</li>
+	<li><a href="https://www.mongodb.com/">mongoDB</a> version <strong>3.0</strong>.</li>
+	<li>The <a href="https://httpd.apache.org/">Apache Web Server</a> version <strong>2.4</strong>.</li>
+	<li>The <a href="http://pm2.keymetrics.io/">PM2</a> Node module.</li>
+	
+</ul>
+
+<h2>Social Media API Settings</h2>
+You can enter your Social media credentials in Admin panel in <a href="../admin/siteSettings">API Credentials</a> page.
+<ul>
+	<li><code>Firebase</code> - for push notification. <a href="https://firebase.google.com/" target="blank">Instructions</a></li>
+	<li><code>Google API Key</code> - for Google Map and Places. Please enable, "Google Maps JavaScript API", "Google Places API Web Service", "Google Maps Geocoding API" and "Google Static Maps API" in Google Developer Console. <a href="https://trioangle.com/blog/how-to-create-google-map-api-javascript-key/" target="blank">Google Key Instructions</a></li>
+	
+</ul>
+
+<h2>Email Settings</h2>
+<h4>SMTP</h4>
+You can enter your SMTP credentials in Admin panel in <a href="../admin/siteSettings">Email Settings</a> page. <a href="https://trioangle.com/blog/how-to-create-gmail-smtp-credential/" target="blank">Instructions</a>
+
+
+<h2>Final Notes</h2>
+<ul>
+	<li>Once you have reached the Google's daily limit quotas, you have to pay some amount for unlock Google services.</li>
+	<li>If you have any suggestions, ideas, or comments, or if you (gasp!) found a bug, send email to sales@trioangle.com or support@trioangle.com.</li>
+</ul>
+
+<h2>License</h2>
+<p>Makent has license for this package. See <a href="../End User License Agreement.pdf">End User License Agreement.pdf</a>.</p>
+
+</body>
+</html>

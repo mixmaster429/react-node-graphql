@@ -1,0 +1,25 @@
+version: "3"
+services:
+  mongo:
+    container_name: mongodb
+    image: mongo
+    networks:
+      - passup
+    ports:
+      - "27017:27017"
+    restart: always
+    volumes:
+      - ./db_data:/data/db
+  mongoClientTemp: 
+    image: mongo
+    networks:
+      - passup
+    container_name: mongoClientTemp
+    links:
+      - mongo:mongo
+    command: mongo --host mongo --eval  "db.getSiblingDB('value1').createUser({user:'value2', pwd:'value3', roles:[{role:'readWrite',db:'value1'}]});"
+    depends_on:
+      - mongo
+networks:
+  passup:
+    driver: bridge

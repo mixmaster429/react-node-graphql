@@ -1,0 +1,12 @@
+/node_modules
+/build
+/cmds
+/.env
+/fileStorage
+/credentials.json
+/.env.development
+/.env.staging
+/.env.production
+/db_data
+/server.js
+

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="216px" height="238px" viewBox="0 0 216 238" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Stroke 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="144.889172%" y1="-20.3312636%" x2="7.3346657%" y2="88.8833925%" id="linearGradient-1">
+            <stop stop-color="#FFD200" offset="0%"></stop>
+            <stop stop-color="#FF3F55" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Item_card/sell-profile-page-forma-grande" transform="translate(-8.000000, -8.000000)" fill="url(#linearGradient-1)">
+            <path d="M86.5198915,245.97309 C41.1270282,247.158673 2.22587228,209.27202 8.70956523,111.850386 C15.19426,14.427712 66.4817539,5.60239941 95.5982638,8.4228387 C143.580797,13.0694916 129.316072,51.7954127 166.924897,65.8081705 C204.532721,79.8209282 224.63297,97.1699578 223.984801,131.869057 C223.336632,166.567116 214.259262,242.636818 86.5198915,245.97309 Z" id="Stroke-1"></path>
+        </g>
+    </g>
+</svg>

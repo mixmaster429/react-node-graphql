@@ -1,0 +1,39 @@
+version: "3"
+services:
+  app:
+    depends_on: 
+      - mongo
+    container_name: passup
+    image: sysad25/passup:1.2
+    networks:
+      - passup
+    working_dir: "/app"
+    ports: 
+      - "4000:4000"
+    volumes:
+      - ./fileStorage:/app/fileStorage
+    links: 
+      - mongo
+  mongo:
+    container_name: mongodb
+    image: mongo
+    networks:
+      - passup
+    ports:
+      - "27017:27017"
+    restart: always
+    volumes:
+      - ./db_data:/data/db
+  mongoClientTemp: 
+    image: mongo
+    networks:
+      - passup
+    container_name: mongoClientTemp
+    links:
+      - mongo:mongo
+    command: mongo --host mongo --eval  "db.getSiblingDB('admin').createUser({user:'testuser', pwd:'trio123', roles:[{role:'readWrite',db:'admin'}]});"
+    depends_on:
+      - mongo
+networks:
+  passup:
+    driver: bridge

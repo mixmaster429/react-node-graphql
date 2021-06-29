@@ -1,0 +1,6 @@
+{
+	"client_id": "com.trioangle.passup.service.demo",
+	"redirect_uri": "https://passup.trioangledemo.com/auth/callback",
+	"team_id": "W89HL6566S",
+	"key_identifier": "7XTD5STH2W"
+  }

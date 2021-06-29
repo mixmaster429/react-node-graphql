@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="254px" height="57px" viewBox="0 0 254 57" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Path 4</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M216.5,185 C216.5,185 231,124.5 313,124.5 C367.666667,124.5 407.833333,145 433.5,186 C288.833333,185.333333 216.5,185 216.5,185 Z" id="path-1"></path>
+        <filter x="-19.8%" y="-61.8%" width="139.6%" height="239.8%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="5" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="13.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.299744898   0 0 0 0 0.0400996321   0 0 0 0 0.0400996321  0 0 0 0.355893342 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="1011-banner-main-feed" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1011-banner-main-feed-/log-in" transform="translate(-196.000000, -167.000000)">
+            <g id="promo1-copy" transform="translate(0.000000, 64.000000)">
+                <g id="Path-4">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#FF3F55" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
